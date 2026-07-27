@@ -1,7 +1,23 @@
 aid: graphiq
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/graphiq.png
 name: Graphiq
-description: Graphiq is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Graphiq was a creative-technology startup founded in 2015 that set out to disrupt the
+  traditional agency model by connecting companies with vetted graphic designers through a flexible
+  design-subscription service. Backed by 500 Global, the company was acquired by Klingit in July 2024
+  and its brand folded into Klingit; the graphiq.design domain now redirects to klingit.com. Graphiq
+  operated as a design-services marketplace and offered no public API, developer portal, or programmatic
+  surface. This profile is retained as an acquired-company record in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/graphiq/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +25,21 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: klingit
+x-acquired-date: '2024-07'
+x-api-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Graphic Design
+- Creative Services
+- Design Subscription
+- Marketing
+- Agency
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +48,13 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://graphiq.design
+  url: https://klingit.com/no/?referral=graphiq
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/graphiq-2
+- type: LinkedIn
+  url: https://www.linkedin.com/company/graphiq
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
